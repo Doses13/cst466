@@ -182,6 +182,11 @@ int main()
             }
             case 3: // Cryptanalysis
             {
+                /*
+                    Assumptions:
+                        1. 'E' is the most common letter in the english language.
+                        2. Need several words in ciphertext before that is almost universally true
+                */
                 input_file.clear();
                 output_file.clear();
 
