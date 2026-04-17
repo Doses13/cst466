@@ -33,6 +33,8 @@ void clear_input_buffer()
     cin.ignore(10000, '\n');
 }
 
+
+
 int main()
 {
     int mode_input = 0;
@@ -51,9 +53,9 @@ int main()
         I also made it print what file was written to.
 
     */
-    string plaintext_filename = "plaintext.txt";
-    string ciphertext_filename = "ciphertext.txt";
-    string decrypted_filename = "decrypted.txt";
+    string plaintext_filename = "plaintext.txt";                // File for inputting text to encrypt
+    string ciphertext_filename = "ciphertext.txt";              // Output after encrypting text
+    string decrypted_filename = "decrypted.txt";                // Output for desiphering/decrypting text
 
     ifstream input_file;
     ofstream output_file;
@@ -107,7 +109,7 @@ int main()
                 output_file.clear();
 
 
-                // Open files
+                // Open io files
                 input_file.open(plaintext_filename.c_str());
                 if (!input_file.is_open())
                 {
@@ -129,7 +131,7 @@ int main()
                 cout << "Encrypting Finished" << endl;
                 cout << "\n\nOutput written to '" << ciphertext_filename << "'.\n" << endl;
 
-                // Close files
+                // Close io files
                 input_file.close();
                 output_file.close();
 
@@ -152,7 +154,7 @@ int main()
                 input_file.clear();
                 output_file.clear();
 
-                // Open files
+                // Open io files
                 input_file.open(ciphertext_filename.c_str());
                 if (!input_file.is_open())
                 {
@@ -174,7 +176,7 @@ int main()
                 cout << "Decrypting Finished" << endl;
                 cout << "\n\nOutput written to '" << decrypted_filename << "'.\n" << endl;
 
-                // Close files
+                // Close io files
                 input_file.close();
                 output_file.close();
 
@@ -187,6 +189,8 @@ int main()
                         1. 'E' is the most common letter in the english language.
                         2. Need several words in ciphertext before that is almost universally true
                 */
+
+                // Open io files
                 input_file.clear();
                 output_file.clear();
 
@@ -205,11 +209,13 @@ int main()
                     break;
                 }
 
+                // Cryptanalysis program
+
                 // Current count of all letters in file: frequency[0] = A, frequency[1] = B, etc...
                 int frequency[26] = { 0 };
                 char ch;
 
-                
+                // Fill frequency array
                 while (input_file.get(ch))
                 {
                     // I couldn't really figure out if all ciphertext inputs would be uppercase, all of profs examples were, so I just called toupper on all of the chars -WM
@@ -261,6 +267,8 @@ int main()
                 cout << "Cryptanalysis finished." << endl;
                 cout << "Output written to '" << decrypted_filename << "'.\n" << endl;
 
+
+                // Close io files
                 input_file.close();
                 output_file.close();
 
@@ -268,7 +276,7 @@ int main()
             }
             case 4: // Exit
             {
-                return 0;
+                return 0; // Probably bad practice...
             }
         }
 
