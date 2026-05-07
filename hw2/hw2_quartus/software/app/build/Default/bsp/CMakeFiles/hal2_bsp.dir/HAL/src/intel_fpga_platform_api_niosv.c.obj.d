@@ -1,0 +1,21 @@
+bsp/CMakeFiles/hal2_bsp.dir/HAL/src/intel_fpga_platform_api_niosv.c.obj: \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/src/intel_fpga_platform_api_niosv.c \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/intel_fpga_platform_api.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/sys/intel_fpga_platform_api_niosv.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/./system.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/./linker.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/lib/gcc/riscv32-unknown-elf/13.2.0/include/stdarg.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/lib/gcc/riscv32-unknown-elf/13.2.0/include/stdbool.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/sys/intel_fpga_api_cmn_msg.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/lib/gcc/riscv32-unknown-elf/13.2.0/include/stdint.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/stdint.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/machine/_default_types.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/sys/features.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/_newlib_version.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/sys/_intsup.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/sys/_stdint.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/intel_fpga_platform.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/sys/intel_fpga_platform_niosv.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/lib/gcc/riscv32-unknown-elf/13.2.0/include/stddef.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/sys/intel_fpga_api_cmn_dfl.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/sys/intel_fpga_api_cmn_inf.h

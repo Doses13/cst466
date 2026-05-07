@@ -1,0 +1,19 @@
+bsp/CMakeFiles/hal2_bsp.dir/drivers/src/altera_avalon_jtag_uart_fd.c.obj: \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/drivers/src/altera_avalon_jtag_uart_fd.c \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/alt_types.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/sys/alt_dev.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/./system.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/./linker.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/sys/alt_llist.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/priv/alt_dev_llist.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/drivers/inc/altera_avalon_jtag_uart.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/lib/gcc/riscv32-unknown-elf/13.2.0/include/stddef.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/sys/alt_alarm.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/sys/alt_llist.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/priv/alt_alarm.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/sys/alt_warning.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/os/alt_hooks.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/os/alt_sem.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/priv/alt_no_error.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/os/alt_flag.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/drivers/inc/altera_avalon_jtag_uart_fd.h

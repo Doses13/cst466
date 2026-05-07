@@ -1,0 +1,9 @@
+/home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/app/build/Default/CMakeFiles/app.elf.dir
+/home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/app/build/Default/CMakeFiles/create-objdump.dir
+/home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/app/build/Default/CMakeFiles/niosv-stack-report.dir
+/home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/app/build/Default/CMakeFiles/create-hex.dir
+/home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/app/build/Default/CMakeFiles/edit_cache.dir
+/home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/app/build/Default/CMakeFiles/rebuild_cache.dir
+/home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/app/build/Default/bsp/CMakeFiles/hal2_bsp.dir
+/home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/app/build/Default/bsp/CMakeFiles/edit_cache.dir
+/home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/app/build/Default/bsp/CMakeFiles/rebuild_cache.dir

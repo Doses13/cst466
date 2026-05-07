@@ -1,0 +1,20 @@
+bsp/CMakeFiles/hal2_bsp.dir/HAL/src/alt_busy_sleep.c.obj: \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/src/alt_busy_sleep.c \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/lib/gcc/riscv32-unknown-elf/13.2.0/include/limits.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/lib/gcc/riscv32-unknown-elf/13.2.0/include/syslimits.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/limits.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/newlib.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/_newlib_version.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/sys/cdefs.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/machine/_default_types.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/sys/features.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/lib/gcc/riscv32-unknown-elf/13.2.0/include/stddef.h \
+ /opt/IntelFPGA/riscfree/toolchain/riscv32-unknown-elf/riscv32-unknown-elf/include/sys/syslimits.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/./system.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/./linker.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/alt_types.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/sys/alt_timestamp.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/intel_niosv.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/alt_types.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/io.h \
+ /home2/landen.barber/gitlab/cst466/cst466/hw2/hw2_quartus/software/bsp/HAL/inc/priv/alt_busy_sleep.h

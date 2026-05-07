@@ -1,0 +1,27 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst HW2.HW2.hart -pg 1
+preplace inst HW2.clk_0 -pg 1 -lvl 4 -y 230
+preplace inst HW2.HW2.dbg_mod -pg 1
+preplace inst HW2.HW2.timer_module -pg 1
+preplace inst HW2.LEDS -pg 1 -lvl 6 -y 270
+preplace inst HW2.DEBUG -pg 1 -lvl 6 -y 90
+preplace inst HW2 -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst HW2.SDRAM -pg 1 -lvl 6 -y 190
+preplace inst HW2.HW2 -pg 1 -lvl 3 -y 70
+preplace inst HW2.KEYS -pg 1 -lvl 6 -y 470
+preplace inst HW2.HW2.debug_reset_bridge -pg 1
+preplace inst HW2.HW2.reset_bridge -pg 1
+preplace inst HW2.SWITCHES -pg 1 -lvl 6 -y 370
+preplace inst HW2.HW2.clock_bridge -pg 1
+preplace netloc FAN_OUT<net_container>HW2</net_container>(SLAVE)DEBUG.reset,(SLAVE)LEDS.reset,(SLAVE)KEYS.reset,(SLAVE)HW2.reset,(MASTER)clk_0.clk_reset,(SLAVE)SDRAM.reset1,(SLAVE)SWITCHES.reset) 1 2 4 440 250 NJ 220 1060 220 1160
+preplace netloc EXPORT<net_container>HW2</net_container>(SLAVE)HW2.keys,(SLAVE)KEYS.external_connection) 1 0 6 NJ 500 NJ 500 NJ 500 NJ 500 NJ 500 NJ
+preplace netloc FAN_OUT<net_container>HW2</net_container>(SLAVE)clk_0.clk_in_reset,(MASTER)HW2.dbg_reset_out,(SLAVE)HW2.ndm_reset_in) 1 2 2 460 210 800
+preplace netloc EXPORT<net_container>HW2</net_container>(SLAVE)SWITCHES.external_connection,(SLAVE)HW2.switches) 1 0 6 NJ 400 NJ 400 NJ 400 NJ 400 NJ 400 NJ
+preplace netloc EXPORT<net_container>HW2</net_container>(SLAVE)LEDS.external_connection,(SLAVE)HW2.leds) 1 0 6 NJ 300 NJ 300 NJ 300 NJ 300 NJ 300 NJ
+preplace netloc EXPORT<net_container>HW2</net_container>(SLAVE)HW2.clk,(SLAVE)clk_0.clk_in) 1 0 4 NJ 240 NJ 240 NJ 270 NJ
+preplace netloc FAN_OUT<net_container>HW2</net_container>(SLAVE)KEYS.clk,(SLAVE)HW2.clk,(SLAVE)DEBUG.clk,(SLAVE)LEDS.clk,(MASTER)clk_0.clk,(SLAVE)SWITCHES.clk,(SLAVE)SDRAM.clk1) 1 2 4 400 230 NJ 200 1080 120 1140
+preplace netloc INTERCONNECT<net_container>HW2</net_container>(SLAVE)SWITCHES.s1,(MASTER)HW2.data_manager,(SLAVE)SDRAM.s1,(SLAVE)DEBUG.avalon_jtag_slave,(SLAVE)LEDS.s1,(SLAVE)HW2.timer_sw_agent,(MASTER)HW2.instruction_manager,(SLAVE)HW2.dm_agent,(SLAVE)KEYS.s1) 1 2 4 420 30 820 100 NJ 100 1120
+preplace netloc POINT_TO_POINT<net_container>HW2</net_container>(MASTER)HW2.platform_irq_rx,(SLAVE)DEBUG.irq) 1 3 3 N 140 NJ 140 NJ
+levelinfo -pg 1 0 60 1350
+levelinfo -hier HW2 70 90 360 600 890 1100 1190 1340
